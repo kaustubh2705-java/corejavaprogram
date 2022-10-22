@@ -1,7 +1,7 @@
 package practiceex;
 
 import java.util.Scanner;
-
+// &logic program
 public class test {
 
 	public static void main(String[] args) {
@@ -28,3 +28,4 @@ public class test {
 	}
 
 }
+
