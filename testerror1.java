@@ -15,8 +15,10 @@ public class testerror1 {
 		System.out.println("Before Exc");
 		
 		//System.out.println(s.touppercase());
-		
+		try{
 		s1.m();
+		}catch(Exception e){
+		}
 		System.out.println("After exc");
 	}
 
