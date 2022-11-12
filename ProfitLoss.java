@@ -4,24 +4,22 @@ public class ProfitLoss {
 
 	public static void main(String[] args) {
 	
-		int cp,sp,p,l;
+			int cp,sp;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the value");
 		
-		cp=sc.nextInt();
-		sp=sc.nextInt();
-		
-
-		if(cp<sp) {
-			
-			 p = sp - cp;
-			 System.out.println("profit earned from item And the Profit is= "+p);
-			 
-		}
-		else  {
-			System.out.println("loss incurred from item");
-	
-		}
+	    System.out.println("enter the value of cost price");
+	    cp=sc.nextInt();
+	    System.out.println("enter the value of selling price");
+	    sp=sc.nextInt();
+	   
+	    if(cp<sp)
+	    	System.out.println("Profit= "+(sp-cp));
+	    else if(cp>sp)
+	        System.out.println("Loss= "+(sp-cp));
+	    else
+	    	System.out.println("Break even point ie no profit no loss");
+	    
+	    
 		
 	
 	}
